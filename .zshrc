@@ -3,7 +3,7 @@ export TERM="xterm-256color"
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/209304/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -104,10 +104,10 @@ export PATH="/usr/local/bin":$PATH
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/209304/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/209304/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/serverless.zsh
+[[ -f $HOME/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/serverless.zsh ]] && . $HOME/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/serverless.zsh
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/209304/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/209304/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/sls.zsh
+[[ -f $HOME/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/sls.zsh ]] && . $HOME/v5/packages/wdio-lambda-runner/node_modules/tabtab/.completions/sls.zsh
 export UMT_CLIENT_ID="452053133458-kknh6hpmgk2vcvutao7lab0mccrhjats.apps.googleusercontent.com"
 export UMT_CLIENT_SECRET="RP_o574rSxDn316SlB4jf3ia"
 export UMT_REFRESH_TOKEN="1/dBIv8evDkcTs03MnOFIpW5t5_PyEnqVrhEUQRCy1190"
@@ -119,10 +119,10 @@ eval "$(rbenv init -)"
 
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/209304/webdriverio/packages/wdio-lambda-runner/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/209304/webdriverio/packages/wdio-lambda-runner/node_modules/tabtab/.completions/slss.zsh
+[[ -f $HOME/webdriverio/packages/wdio-lambda-runner/node_modules/tabtab/.completions/slss.zsh ]] && . $HOME/webdriverio/packages/wdio-lambda-runner/node_modules/tabtab/.completions/slss.zsh
 
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export PATH="/Users/209304/mvn/apache-maven-3.6.3/bin:$PATH"
+export PATH="$HOME/mvn/apache-maven-3.6.3/bin:$PATH"
 export GOBIN="/usr/local/bin"
 export GOPATH="$HOME/go"
 alias git-prune="git branch | grep -v \"master\" | xargs git branch -D"
@@ -134,11 +134,11 @@ alias cdga="cd ~/games-admin"
 
 
 nvm use v8.9.0
-source /Users/209304/Library/Preferences/org.dystroy.broot/launcher/bash/br
+source $HOME/Library/Preferences/org.dystroy.broot/launcher/bash/br
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/209304/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/209304/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '$HOME/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/209304/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/209304/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-alias config=/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME
+if [ -f '$HOME/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
